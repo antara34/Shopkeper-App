@@ -84,12 +84,14 @@ The absolute second a transaction causes stock levels to fall below an item's sp
 
 <img width="250" height="480" alt="WhatsApp Image 2026-06-22 at 5 51 02 PM" src="https://github.com/user-attachments/assets/98425b85-1b8f-4fc4-a262-b3cb660e8086" />
 
+## 🚀 How to Run & Verify Locally (Judges' Execution Guide)
 
+Follow these exact steps to clone, compile, and run the SheetKeeper Assistant engine natively inside your local Linux/Ubuntu terminal environment.
 
-
-
-### 1. Install Prerequisites
-Ensure you have a C++ compiler and the required SSL/networking dependencies installed:
+### 📋 Step 1: Clone the Architecture
+Clone this repository to your local machine and navigate into the project root directory:
 ```bash
+git clone https://github.com/antara34/
+cd YOUR_REPO_NAME
 sudo apt update
 sudo apt install build-essential libcurl4-openssl-dev libssl-dev
