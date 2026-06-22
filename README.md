@@ -1,5 +1,22 @@
 # 🛒 ShopKeeper Assistant
-A Linux terminal based  intelligent, C++ backend inventory engine powered by the Gemini API for natural language understanding and Twilio API for real-time cellular threshold notifications.
+
+### Project Introduction
+
+An intelligent, Linux terminal-based inventory engine powered by a C++ backend. It uses the Gemini API for natural language understanding and the Twilio API for sending real-time cellular low-stock notifications. 
+
+This project is highly useful for shopkeepers because it allows them to update transactions using simple human commands and get instant business insights analyzed by Gemini. In turn, Gemini updates the system's database and sends back a response. 
+By eliminating the usual manual updating of product stocks in spreadsheets, this engine makes a shopkeeper's job incredibly time-efficient and precise. 
+
+### ✨ Key Features Built into the System:
+* **Smart Command Parsing:** You don't need to type rigid code just give commands in human language  engine instantly understands the product, quantity, and intent. "sold 12 milk", "stock 30 maggi","bought 20 sweets","add biscuits with bm 5,cost 12,sp 15".
+* **Existing Product Updates:** Shopkeepers can effortlessly update the benchmark (BM), cost price (CP), or selling price (SP) of any existing product in the catalog whenever they want, instantly locking the new configurations into memory.
+* **Automated Net Profit Calculations:** The engine tracks your total costs and revenues to show you exactly how much profit your business is making.
+* **Average Selling Price Updates:** If the same product is sold at different rates over time, the system automatically calculates and updates its average selling price."sold 8 coke for 20 rs"
+* **Waste & Loss Tracking:** It keeps track of and updates your net amounts according to products that get wasted or damaged, alongside items that are successfully sold. "5 pepsi wasted".
+* **Automated Low-Stock Text Alerts:** The second a product's stock drops below its safe boundary (Benchmark), the C++ backend automatically triggers a text message directly to your phone so you never run out of supply.
+* **Organized Financial Table Display:** At any time, shopkeepers can generate a beautifully structured, clean table matrix that lists every product name alongside its benchmarks, current costs, prices, stock levels, and total units sold for clear visual tracking."view finance"
+* **Easy Mistake-Deletion:** If a product is added by mistake or needs to be removed from the catalog completely, it can be instantly wiped from the memory system using a quick, straightforward delete command."delete pepsi"
+  
 ### Deep-Dive System Architecture
 
 SheetKeeper Assistant is a high-performance console application that wraps a native C++ execution loop around cloud-hosted neural parsing architectures. It intercepts chaotic, variable human shop text (e.g., *"sold 12 milkshakes"*, *"add maggi with bm 5, cost 8 and sp 10"*) and forces the remote model to act as a deterministic, zero-latency database compiler. 
