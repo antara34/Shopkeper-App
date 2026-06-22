@@ -106,8 +106,15 @@ string account_sid = "PASTE TWILIO ACCOUNT SID";
 string auth_token  = "TWILIO AUTHENTICATION NUMBER";
 string twilio_num  = "TWILIO TRIAL NUMBER"; //Get you twilio trial number and  paste here
 string my_real_num = "YOUR REAL NUMBER"; // Your personal number with country code
+
+string my_api_key = "PASTE YOUR GOOGLE GEMINI API";// paste your google api
 ```
-```C++
+* Step 4: Compile and boot the engine
+```bash
+g++ main.cpp -o shopkeeper
+./shopkeeper
+```
+
 
 
 
