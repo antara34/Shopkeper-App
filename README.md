@@ -102,4 +102,12 @@ sudo apt install build-essential libcurl4-openssl-dev libssl-dev
 * Step 3:  Insert Your API Keys Directly in main.cpp
 Open main.cpp in VS Code or your preferred terminal text editor, search for the placeholder strings, and replace them with your actual active API credentials:
 ```C++
+string account_sid = "PASTE TWILIO ACCOUNT SID";
+string auth_token  = "TWILIO AUTHENTICATION NUMBER";
+string twilio_num  = "TWILIO TRIAL NUMBER"; //Get you twilio trial number and  paste here
+string my_real_num = "YOUR REAL NUMBER"; // Your personal number with country code
+```
+```C++
+
+
 
