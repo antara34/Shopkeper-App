@@ -16,6 +16,7 @@ By eliminating the usual manual updating of product stocks in spreadsheets, this
 * **Automated Low-Stock Text Alerts:** The second a product's stock drops below its safe boundary (Benchmark), the C++ backend automatically triggers a text message directly to your phone so you never run out of supply.
 * **Organized Financial Table Display:** At any time, shopkeepers can generate a beautifully structured, clean table matrix that lists every product name alongside its benchmarks, current costs, prices, stock levels, and total units sold for clear visual tracking."view finance"
 * **Easy Mistake-Deletion:** If a product is added by mistake or needs to be removed from the catalog completely, it can be instantly wiped from the memory system using a quick, straightforward delete command."delete pepsi"
+* clear the whole database using "clear" command.
   
 ### Deep-Dive System Architecture
 
